@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === 'היי') {
+    	message.channel.send('$[member]:wink:?היי מה שלומך!');
   	}
 });
 
