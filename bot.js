@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'bing') {
+    if (message.content === 'היי') {
     	message.reply('$[member]:wink:?היי מה שלומך!!');
   	}
 });
