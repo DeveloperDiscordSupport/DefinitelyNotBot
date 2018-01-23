@@ -6,16 +6,16 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'היי') {
-    	message.channel.send('[member]:wink:?היי מה שלומך!');
+    if (message.content === 'ping') {
+    	message.channel.send('PONG!');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'היי') {
-    	message.reply("[member]:wink:?היי מה שלומך!!');
+    if (message.content === 'bing') {
+    	message.reply('BONG!');
   	}
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.NDA1MzU2NTEwMDU5ODIzMTA0.DUjbMg.xueC28dfHE6FT7sgELlzNDNsgYg);
+client.login(process.env.BOT_TOKEN);
