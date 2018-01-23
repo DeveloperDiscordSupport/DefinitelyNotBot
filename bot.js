@@ -7,13 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'היי') {
-    	message.channel.send('$[member]:wink:?היי מה שלומך!');
+    	message.channel.send('[member]:wink:?היי מה שלומך!');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'היי') {
-    	message.reply('$[member]:wink:?היי מה שלומך!!');
+    	message.reply("[member]:wink:?היי מה שלומך!!');
   	}
 });
 
