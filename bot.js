@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'bing') {
-    	message.reply('$[member]:wink:?היי מה שלומך!!');
+    	message.reply('[member]:wink:?היי מה שלומך!!');
   	}
 });
 
